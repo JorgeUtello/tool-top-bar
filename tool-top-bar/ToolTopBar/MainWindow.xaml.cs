@@ -980,7 +980,7 @@ namespace ToolTopBar
                     var path = vm.Path;
                     if (string.IsNullOrWhiteSpace(path))
                         return;
-                    if (!File.Exists(path))
+                    if (!File.Exists(path) && !Directory.Exists(path))
                     {
                         System.Windows.MessageBox.Show("El acceso directo configurado ya no existe. Volvé a arrastrarlo.", "Acceso directo", MessageBoxButton.OK, MessageBoxImage.Warning);
                         _settings.ShortcutPaths.Remove(path);
