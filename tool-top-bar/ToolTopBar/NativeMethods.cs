@@ -196,7 +196,7 @@ namespace ToolTopBar
         private static extern IntPtr SHGetFileInfo(string pszPath, uint dwFileAttributes, ref SHFILEINFO psfi, uint cbFileInfo, uint uFlags);
 
         [DllImport("user32.dll", SetLastError = true)]
-        private static extern bool DestroyIcon(IntPtr hIcon);
+        public static extern bool DestroyIcon(IntPtr hIcon);
 
         // Return raw hIcon via SHGetFileInfo (caller responsible for destroying)
         public static IntPtr GetSystemIconHandle(string path, bool forDirectory, bool smallIcon)
