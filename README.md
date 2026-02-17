@@ -5,8 +5,9 @@ Una barra de herramientas personalizable para Windows que se integra con el sist
 ## 📋 Características
 
 - **Barra de herramientas del sistema**: Se registra como AppBar de Windows reservando espacio en pantalla
-- **Accesos directos personalizables**: Arrastra y suelta archivos ejecutables (.exe) para crear accesos rápidos
+- **Accesos directos personalizables**: Arrastra y suelta archivos ejecutables (.exe) o carpetas para crear accesos rápidos
 - **Gestión de ventanas activas**: Muestra las aplicaciones abiertas con sus iconos en tiempo real
+- **Acceso rápido a carpetas**: Agrega tus carpetas favoritas y ábrelas con un solo clic
 - **Escritorios virtuales**: Navegación integrada entre escritorios virtuales de Windows 10/11
 - **Multi-monitor**: Soporta configuración para mostrar en pantalla principal o en todas las pantallas
 - **Altamente personalizable**: Ajusta altura, tamaño de íconos, espaciado, márgenes y más
@@ -61,7 +62,9 @@ El ejecutable se generará en: `tool-top-bar/ToolTopBar/bin/Release/net7.0-windo
 
 ### Agregar accesos directos
 
-- **Arrastrar y soltar**: Arrastra un archivo `.exe` desde el Explorador de Windows directamente a la barra
+- **Arrastrar y soltar archivos**: Arrastra un archivo `.exe` desde el Explorador de Windows directamente a la barra
+- **Arrastrar y soltar carpetas**: Arrastra cualquier carpeta para tener acceso rápido a ella
+- **Abrir carpetas**: Haz clic en un acceso directo de carpeta para abrirla en el Explorador de Windows
 - **Eliminar**: Arrastra un acceso directo existente fuera de la barra para eliminarlo
 - Los accesos directos se guardan automáticamente y persisten entre sesiones
 

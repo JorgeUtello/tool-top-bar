@@ -915,6 +915,19 @@ namespace ToolTopBar
                 foreach (var file in files)
                 {
                     Console.WriteLine($"Processing file: {file}");
+                    
+                    // Verificar si es una carpeta
+                    if (Directory.Exists(file))
+                    {
+                        if (!_settings.ShortcutPaths.Contains(file))
+                        {
+                            _settings.ShortcutPaths.Add(file);
+                            added = true;
+                            Console.WriteLine($"Folder added: {file}");
+                        }
+                        continue;
+                    }
+                    
                     if (!File.Exists(file))
                     {
                         Console.WriteLine($"File does not exist: {file}");
@@ -1030,6 +1043,26 @@ namespace ToolTopBar
         private async Task LaunchOrActivateAsync(string path)
         {
             if (string.IsNullOrWhiteSpace(path)) return;
+            
+            // Si es una carpeta, abrirla directamente en el explorador
+            if (Directory.Exists(path))
+            {
+                try
+                {
+                    Process.Start(new ProcessStartInfo
+                    {
+                        FileName = "explorer.exe",
+                        Arguments = $"\"{path}\"",
+                        UseShellExecute = true
+                    });
+                }
+                catch (Exception ex)
+                {
+                    LogError($"Error al abrir carpeta: {path}", ex);
+                }
+                return;
+            }
+            
             if (!File.Exists(path)) return;
             var target = GetBestIconPath(path);
             try
@@ -1132,16 +1165,30 @@ namespace ToolTopBar
                     _shortcutItems.Add(new ShortcutIconViewModel { Path = path, Icon = IconHelper.ToImageSource(SystemIcons.Application, iconSize), IconSize = iconSize, IsSeparator = true });
                     continue;
                 }
+                
+                // Verificar si es una carpeta
+                if (Directory.Exists(path))
+                {
+                    var src = TryGetIconImageSource(path, iconSize);
+                    if (src == null)
+                    {
+                        // Usar icono de carpeta del sistema
+                        src = IconHelper.ToImageSource(SystemIcons.Shield, iconSize);
+                    }
+                    _shortcutItems.Add(new ShortcutIconViewModel { Path = path, Icon = src, IconSize = iconSize });
+                    continue;
+                }
+                
                 if (!File.Exists(path))
                     continue;
                 var iconPath = GetBestIconPath(path);
-                var src = TryGetIconImageSource(iconPath, iconSize);
-                if (src == null)
+                var src2 = TryGetIconImageSource(iconPath, iconSize);
+                if (src2 == null)
                 {
                     // Fallback: use a default icon (e.g. a built-in system icon)
-                    src = IconHelper.ToImageSource(SystemIcons.Application, iconSize);
+                    src2 = IconHelper.ToImageSource(SystemIcons.Application, iconSize);
                 }
-                _shortcutItems.Add(new ShortcutIconViewModel { Path = path, Icon = src, IconSize = iconSize });
+                _shortcutItems.Add(new ShortcutIconViewModel { Path = path, Icon = src2, IconSize = iconSize });
             }
             if (IconsListBox.ItemsSource != _shortcutItems)
             {
