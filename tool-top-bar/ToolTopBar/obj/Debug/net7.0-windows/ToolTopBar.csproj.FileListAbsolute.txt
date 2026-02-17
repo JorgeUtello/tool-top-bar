@@ -1,0 +1,46 @@
+C:\Users\JorgeUtello\OneDrive - LARTIRIGOYEN Y CIA. S.A\Documentos\JAU\tool-top-bar\ToolTopBar\bin\Debug\net7.0-windows\ToolTopBar.exe
+C:\Users\JorgeUtello\OneDrive - LARTIRIGOYEN Y CIA. S.A\Documentos\JAU\tool-top-bar\ToolTopBar\bin\Debug\net7.0-windows\ToolTopBar.dll
+C:\Users\JorgeUtello\OneDrive - LARTIRIGOYEN Y CIA. S.A\Documentos\JAU\tool-top-bar\ToolTopBar\bin\Debug\net7.0-windows\ToolTopBar.deps.json
+C:\Users\JorgeUtello\OneDrive - LARTIRIGOYEN Y CIA. S.A\Documentos\JAU\tool-top-bar\ToolTopBar\bin\Debug\net7.0-windows\ToolTopBar.runtimeconfig.json
+C:\Users\JorgeUtello\OneDrive - LARTIRIGOYEN Y CIA. S.A\Documentos\JAU\tool-top-bar\ToolTopBar\bin\Debug\net7.0-windows\ToolTopBar.pdb
+C:\Users\JorgeUtello\OneDrive - LARTIRIGOYEN Y CIA. S.A\Documentos\JAU\tool-top-bar\ToolTopBar\obj\Debug\net7.0-windows\SettingsWindow.baml
+C:\Users\JorgeUtello\OneDrive - LARTIRIGOYEN Y CIA. S.A\Documentos\JAU\tool-top-bar\ToolTopBar\obj\Debug\net7.0-windows\MainWindow.g.cs
+C:\Users\JorgeUtello\OneDrive - LARTIRIGOYEN Y CIA. S.A\Documentos\JAU\tool-top-bar\ToolTopBar\obj\Debug\net7.0-windows\SettingsWindow.g.cs
+C:\Users\JorgeUtello\OneDrive - LARTIRIGOYEN Y CIA. S.A\Documentos\JAU\tool-top-bar\ToolTopBar\obj\Debug\net7.0-windows\App.g.cs
+C:\Users\JorgeUtello\OneDrive - LARTIRIGOYEN Y CIA. S.A\Documentos\JAU\tool-top-bar\ToolTopBar\obj\Debug\net7.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\JorgeUtello\OneDrive - LARTIRIGOYEN Y CIA. S.A\Documentos\JAU\tool-top-bar\ToolTopBar\obj\Debug\net7.0-windows\ToolTopBar_MarkupCompile.cache
+C:\Users\JorgeUtello\OneDrive - LARTIRIGOYEN Y CIA. S.A\Documentos\JAU\tool-top-bar\ToolTopBar\obj\Debug\net7.0-windows\ToolTopBar_MarkupCompile.lref
+C:\Users\JorgeUtello\OneDrive - LARTIRIGOYEN Y CIA. S.A\Documentos\JAU\tool-top-bar\ToolTopBar\obj\Debug\net7.0-windows\MainWindow.baml
+C:\Users\JorgeUtello\OneDrive - LARTIRIGOYEN Y CIA. S.A\Documentos\JAU\tool-top-bar\ToolTopBar\obj\Debug\net7.0-windows\ToolTopBar.g.resources
+C:\Users\JorgeUtello\OneDrive - LARTIRIGOYEN Y CIA. S.A\Documentos\JAU\tool-top-bar\ToolTopBar\obj\Debug\net7.0-windows\ToolTopBar.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JorgeUtello\OneDrive - LARTIRIGOYEN Y CIA. S.A\Documentos\JAU\tool-top-bar\ToolTopBar\obj\Debug\net7.0-windows\ToolTopBar.AssemblyInfoInputs.cache
+C:\Users\JorgeUtello\OneDrive - LARTIRIGOYEN Y CIA. S.A\Documentos\JAU\tool-top-bar\ToolTopBar\obj\Debug\net7.0-windows\ToolTopBar.AssemblyInfo.cs
+C:\Users\JorgeUtello\OneDrive - LARTIRIGOYEN Y CIA. S.A\Documentos\JAU\tool-top-bar\ToolTopBar\obj\Debug\net7.0-windows\ToolTopBar.csproj.CoreCompileInputs.cache
+C:\Users\JorgeUtello\OneDrive - LARTIRIGOYEN Y CIA. S.A\Documentos\JAU\tool-top-bar\ToolTopBar\obj\Debug\net7.0-windows\ToolTopBar.dll
+C:\Users\JorgeUtello\OneDrive - LARTIRIGOYEN Y CIA. S.A\Documentos\JAU\tool-top-bar\ToolTopBar\obj\Debug\net7.0-windows\refint\ToolTopBar.dll
+C:\Users\JorgeUtello\OneDrive - LARTIRIGOYEN Y CIA. S.A\Documentos\JAU\tool-top-bar\ToolTopBar\obj\Debug\net7.0-windows\ToolTopBar.pdb
+C:\Users\JorgeUtello\OneDrive - LARTIRIGOYEN Y CIA. S.A\Documentos\JAU\tool-top-bar\ToolTopBar\obj\Debug\net7.0-windows\ToolTopBar.genruntimeconfig.cache
+C:\Users\JorgeUtello\OneDrive - LARTIRIGOYEN Y CIA. S.A\Documentos\JAU\tool-top-bar\ToolTopBar\obj\Debug\net7.0-windows\ref\ToolTopBar.dll
+c:\Users\user\Documents\GitHub\tool-top-bar\tool-top-bar\ToolTopBar\bin\Debug\net7.0-windows\ToolTopBar.exe
+c:\Users\user\Documents\GitHub\tool-top-bar\tool-top-bar\ToolTopBar\bin\Debug\net7.0-windows\ToolTopBar.deps.json
+c:\Users\user\Documents\GitHub\tool-top-bar\tool-top-bar\ToolTopBar\bin\Debug\net7.0-windows\ToolTopBar.runtimeconfig.json
+c:\Users\user\Documents\GitHub\tool-top-bar\tool-top-bar\ToolTopBar\bin\Debug\net7.0-windows\ToolTopBar.dll
+c:\Users\user\Documents\GitHub\tool-top-bar\tool-top-bar\ToolTopBar\bin\Debug\net7.0-windows\ToolTopBar.pdb
+c:\Users\user\Documents\GitHub\tool-top-bar\tool-top-bar\ToolTopBar\obj\Debug\net7.0-windows\SettingsWindow.baml
+c:\Users\user\Documents\GitHub\tool-top-bar\tool-top-bar\ToolTopBar\obj\Debug\net7.0-windows\MainWindow.g.cs
+c:\Users\user\Documents\GitHub\tool-top-bar\tool-top-bar\ToolTopBar\obj\Debug\net7.0-windows\SettingsWindow.g.cs
+c:\Users\user\Documents\GitHub\tool-top-bar\tool-top-bar\ToolTopBar\obj\Debug\net7.0-windows\App.g.cs
+c:\Users\user\Documents\GitHub\tool-top-bar\tool-top-bar\ToolTopBar\obj\Debug\net7.0-windows\GeneratedInternalTypeHelper.g.cs
+c:\Users\user\Documents\GitHub\tool-top-bar\tool-top-bar\ToolTopBar\obj\Debug\net7.0-windows\ToolTopBar_MarkupCompile.cache
+c:\Users\user\Documents\GitHub\tool-top-bar\tool-top-bar\ToolTopBar\obj\Debug\net7.0-windows\ToolTopBar_MarkupCompile.lref
+c:\Users\user\Documents\GitHub\tool-top-bar\tool-top-bar\ToolTopBar\obj\Debug\net7.0-windows\MainWindow.baml
+c:\Users\user\Documents\GitHub\tool-top-bar\tool-top-bar\ToolTopBar\obj\Debug\net7.0-windows\ToolTopBar.g.resources
+c:\Users\user\Documents\GitHub\tool-top-bar\tool-top-bar\ToolTopBar\obj\Debug\net7.0-windows\ToolTopBar.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\user\Documents\GitHub\tool-top-bar\tool-top-bar\ToolTopBar\obj\Debug\net7.0-windows\ToolTopBar.AssemblyInfoInputs.cache
+c:\Users\user\Documents\GitHub\tool-top-bar\tool-top-bar\ToolTopBar\obj\Debug\net7.0-windows\ToolTopBar.AssemblyInfo.cs
+c:\Users\user\Documents\GitHub\tool-top-bar\tool-top-bar\ToolTopBar\obj\Debug\net7.0-windows\ToolTopBar.csproj.CoreCompileInputs.cache
+c:\Users\user\Documents\GitHub\tool-top-bar\tool-top-bar\ToolTopBar\obj\Debug\net7.0-windows\ToolTopBar.dll
+c:\Users\user\Documents\GitHub\tool-top-bar\tool-top-bar\ToolTopBar\obj\Debug\net7.0-windows\refint\ToolTopBar.dll
+c:\Users\user\Documents\GitHub\tool-top-bar\tool-top-bar\ToolTopBar\obj\Debug\net7.0-windows\ToolTopBar.pdb
+c:\Users\user\Documents\GitHub\tool-top-bar\tool-top-bar\ToolTopBar\obj\Debug\net7.0-windows\ToolTopBar.genruntimeconfig.cache
+c:\Users\user\Documents\GitHub\tool-top-bar\tool-top-bar\ToolTopBar\obj\Debug\net7.0-windows\ref\ToolTopBar.dll
