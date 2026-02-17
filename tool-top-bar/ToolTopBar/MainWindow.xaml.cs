@@ -1479,6 +1479,23 @@ namespace ToolTopBar
         {
             try
             {
+                // If it's a directory, try to get the system folder icon via SHGetFileInfo
+                if (Directory.Exists(filePath))
+                {
+                    var hIcon = NativeMethods.GetSystemIconHandle(filePath, true, desiredSize <= 16);
+                    if (hIcon != IntPtr.Zero)
+                    {
+                        var bmpDir = Imaging.CreateBitmapSourceFromHIcon(
+                            hIcon,
+                            Int32Rect.Empty,
+                            BitmapSizeOptions.FromWidthAndHeight(desiredSize, desiredSize));
+                        NativeMethods.DestroyIcon(hIcon);
+                        bmpDir.Freeze();
+                        return bmpDir;
+                    }
+                }
+
+                // Fallback for files: Extract associated icon
                 using var icon = System.Drawing.Icon.ExtractAssociatedIcon(filePath);
                 if (icon is null) return null;
 
